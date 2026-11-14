@@ -1,0 +1,17 @@
+# Case data never goes in this repo.
+# Real dork lists name real people; results and hashes are case records.
+dorks_*.txt
+!examples/dorks_example.txt
+dork_results_*.csv
+dork_summary_*.txt
+dork_hashes_*.txt
+results/
+*.csv
+*.html
+reports/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

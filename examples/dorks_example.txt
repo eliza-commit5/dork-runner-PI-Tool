@@ -1,0 +1,20 @@
+# Example dork file - all names, places, and handles are fictitious
+@case: 00-0000000 EXAMPLE
+
+@subject: Jane Q. Example
+@flag: example, smallville, sampleton, jqexample
+site:facebook.com "Jane Example" Smallville (Tennessee OR TN)
+site:facebook.com "Janie Example" (Tennessee OR TN)
+site:instagram.com "Jane Example" (Tennessee OR TN)
+(site:x.com OR site:twitter.com) "Jane Example" (Tennessee OR TN)
+site:linkedin.com/in "Jane Example" (Tennessee OR TN)
+"Jane Quinn Example"
+"jqexample"
+"555-555-0100"
+"5555550100"
+
+@subject: John R. Sample
+@flag: sample, smallville, example
+site:facebook.com "John Sample" Smallville (Tennessee OR TN)
+"Sample Hauling LLC" Smallville
+("Jane Example" OR "Janie Example") "John Sample" (Tennessee OR TN)
